@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/cart/Cart.js", "app/profile/UserInfo.js", "app/checkout/Checkout.js", "app/dashboard/order-management/MoreDetailsButton.js", "app/dashboard/order-management/MoreDetailsButton.js", "app/to-recieve/ToRecieveProfile.js", "app/to-receive/ToRecieveViewDeets.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(user)/cart/Cartapp/(user)/profile/UserInfo.jsInfoapp/(user)/checkout/Checkout.jskout.js", "app/dashboard/order-management/MoreDetailsButton.js", "app/dashboard/order-management/MoreDetapp/(user)/to-recieve/ToRecieveProfile.jsRecieveProfile.js", "app/to-receive/ToRecieveViewDeets.js", "app/layout.js", "app/(user)/to-recieve/ToRecieveCancel.jsoRecieveCancel.js", "app/(dashboard)/dashboard/edit-product/UpdateProductPopup.js", "app/(dashboard)/dashboard/edit-product/UpdateProduct.js", "app/(dashboard)/dashboard/edit-product/DeleteProductPopup.js", "app/(dashboard)/dashboard/edit-product/DeleteProduct.tsx", "app/(dashboard)/dashboard/edit-product/DeleteProduct.tsx", "app/(dashboard)/dashboard/order-history/OrderHistoryProfile.js", "app/(user)/products/page.js", "app/(dashboard)/dashboard/edit-product/DeleteProduct.js"]
   "exclude": ["node_modules"]
 }
